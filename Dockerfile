@@ -1,6 +1,6 @@
 FROM pivotalcfreleng/golang:latest
 
-COPY .
+COPY . .
 
 
 ENTRYPOINT ["date"]
