@@ -1,6 +1,4 @@
-FROM pivotalcfreleng/golang:latest
+FROM alpine:3.14.1
 
-COPY . .
-
-
-ENTRYPOINT ["date"]
+RUN apk update
+RUN apk add tar unzip gstreamer
