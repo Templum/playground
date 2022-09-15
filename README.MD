@@ -1,3 +1,1 @@
 # Playground
-
-Hello 2
