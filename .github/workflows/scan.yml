@@ -8,9 +8,4 @@ jobs:
       - name: Scan for Vulnerabilities in Code
         uses: Templum/govulncheck-action@feature/10
         with:
-          skip-upload: true
-      - name: Upload Sarif Report
-        uses: actions/upload-artifact@v3
-        with:
-          name: sarif-report
-          path: govulncheck-report.sarif
+          skip-upload: false
