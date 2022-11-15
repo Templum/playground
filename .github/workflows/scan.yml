@@ -6,6 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Scan for Vulnerabilities in Code
-        uses: Templum/govulncheck-action@main
+        uses: Templum/govulncheck-action@fix/investigate
         with:
           skip-upload: false
+        env:
+          DEBUG: "true"
