@@ -11,3 +11,8 @@ jobs:
           skip-upload: false
         env:
           DEBUG: "true"
+      - name: Upload Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: raw-report
+          path: raw-report.json
