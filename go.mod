@@ -9,6 +9,7 @@ require (
 )
 
 require (
+	github.com/Templum/private-lib v0.0.0-20221120161254-7747a60ae4ce // indirect
 	github.com/tidwall/match v1.0.1 // indirect
 	github.com/tidwall/pretty v1.0.2 // indirect
 )

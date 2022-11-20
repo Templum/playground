@@ -1,3 +1,5 @@
+github.com/Templum/private-lib v0.0.0-20221120161254-7747a60ae4ce h1:oLt4g9BxE05oRliGm0LvFQkwYXjQUUzJkeUzd0G4Law=
+github.com/Templum/private-lib v0.0.0-20221120161254-7747a60ae4ce/go.mod h1:9enGZ6oDMgBPWDfuJuRVGDnd0Fo7gJV8pHPA47ioUIQ=
 github.com/tidwall/gjson v1.6.4 h1:JKsCsJqRVFz8eYCsQ5E/ANRbK6CanAtA9IUvGsXklyo=
 github.com/tidwall/gjson v1.6.4/go.mod h1:BaHyNc5bjzYkPqgLq7mdVzeiRtULKULXLgZFKsxEHI0=
 github.com/tidwall/match v1.0.1 h1:PnKP62LPNxHKTwvHHZZzdOAOCtsJTjo6dZLCwpKm5xc=
