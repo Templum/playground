@@ -1,5 +1,7 @@
 name: Scan Vuln
-on: [push]
+on: [push,workflow_dispatch]
+permissions: 
+  security-events: write
 jobs:
   Code-Scan:
     runs-on: ubuntu-latest
