@@ -8,12 +8,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Scan for Vulnerabilities in Code
-        uses: Templum/govulncheck-action@main
+        uses: Templum/govulncheck-action@feature/19
         with:
           skip-upload: false
           go-version: 1.18
         env:
           DEBUG: "true"
+          PRIVATE_GIT_URL_OVERRIDE: '"https://${{ github.token }}@github.com".insteadOf "https://github.com"'
+          GOPRIVATE: "github.com/Templum/private-lib"
       - name: Upload Report
         uses: actions/upload-artifact@v3
         with:
