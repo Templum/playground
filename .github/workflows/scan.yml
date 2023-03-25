@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Scan for Vulnerabilities in Code
-        uses: Templum/govulncheck-action@feature/19
+        uses: Templum/govulncheck-action@main
         with:
           skip-upload: false
           go-version: 1.18
